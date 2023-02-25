@@ -1,0 +1,61 @@
+.header {
+  height: 6.25rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.125rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+
+.menuContainer {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.menuContainer li span {
+  margin-right: 0.625rem;
+}
+
+.userInfoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 3.75rem;
+}
+
+.userInfoContainer li {
+  display: flex;
+  align-items: center;
+}
+
+.userInfoContainer li:hover {
+  transform: scale(1.05);
+}
+
+.userInfoContainer li:active {
+  transform: scale(0.95);
+}
+
+.logo {
+  margin-right: 3.75rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.authContainer {
+  gap: 1rem;
+  text-decoration: underline;
+}
+
+.hamburgerContainer {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+}

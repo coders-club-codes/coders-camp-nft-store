@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100%;
+}
+
+button, input {
+  border: 0;
+}
+
+svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
